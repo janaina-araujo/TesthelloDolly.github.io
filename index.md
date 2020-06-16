@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<body>
 
-You can use the [editor on GitHub](https://github.com/janaina-araujo/TesthelloDolly.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<h2>JavaScript Statements</h2>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p>JavaScript code blocks are written between { and }</p>
 
-### Markdown
+<button type="button" onclick="myFunction()">Click Me!</button>
+<button type="button" onclick="myFunction1()">Click another Me!</button>
+<button type="button" onclick="myFunction2()">Click me to say yes or no!</button>
+<button type="button" onclick="myFunction2()">Another button 4th</button>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly!";
+  document.getElementById("demo2").innerHTML = "How are you?";
+  document.getElementById("demo3").innerHTML = "Are you Good?";
+}
+function myFunction1() {
+  document.getElementById("demo4").innerHTML = "Demo4 Says yes!";
 
-```markdown
-Syntax highlighted code block
+}
+function myFunction2() {
+  document.getElementById("demo4").innerHTML = "Demo4 Says no!";
 
-# Header 1
-## Header 2
-### Header 3
+}
+</script>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/janaina-araujo/TesthelloDolly.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
